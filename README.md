@@ -1,4 +1,4 @@
-# liquidefi
+# liquiDEFI
 Telegram bot that help user query or get notified the liquidation stats on AAVE👻
 
 Add the bot in Telegram https://t.me/aavesheetybot
@@ -53,3 +53,7 @@ Or use `/feedback` to ask for subscribe
 `/feedback I want periotically notify me the AAVE liquidation stats with [address]`
 
 (We manually reviewed the request for now)
+
+
+Starting from EthGlobal Hackthon
+https://hack.ethglobal.co/showcase/liquidefi-recEkBh7CCTUqVJKB
