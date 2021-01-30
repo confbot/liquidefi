@@ -4,6 +4,8 @@
 var SPREADSHEET_ID = '';
 var WEBAPP_URL = '';
 var TELEGRAM_TOKEN = '';
+
+var TEST_ADDRESS = '';
 var FeedBack_subscribers = [];
 var Gasfee_subscribers = [];
 
@@ -101,7 +103,7 @@ function getAaveHealthFactor() {
   var ID = this.update && this.update.message && this.update.message.from && this.update.message.from.id || '';
   var address = (this.update && this.update.message && this.update.message.text)
     ? this.update.message.text.replace('/aave ', '')
-    : '0x9Cfe8b9D8a1C545421E14560A490B67AFcF16bd8'; // fill a test address
+    : TEST_ADDRESS;
   // SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName('Feedback').appendRow([new Date(), ID, 'bot', address]);
   var data = {
     jsonrpc: '2.0',
