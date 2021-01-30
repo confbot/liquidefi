@@ -22,6 +22,7 @@ triggerGasnow - send subscribe gas fee periotically
 */
 
 // DO NOT CHANGE CODE BELOW IF YOU DONT KNOW WHAT YOU ARE DOING
+var ETHEREUM_NODE = 'https://api.mycryptoapi.com/eth';
 var TELEGRAM_API = 'https://api.telegram.org/bot' + TELEGRAM_TOKEN + '/';
 
 // utils
@@ -122,7 +123,7 @@ function getAaveHealthFactor() {
     contentType: 'application/json',
     payload: JSON.stringify(data) // Convert the JavaScript object to a JSON string.
   };
-  var rawData = JSON.parse(UrlFetchApp.fetch('https://api.mycryptoapi.com/eth', options).getContentText()).result;
+  var rawData = JSON.parse(UrlFetchApp.fetch(ETHEREUM_NODE, options).getContentText()).result;
 
   var totalCollateralETH = toFixed(parseFloat(rawData.slice(0, 66) / 10**15), 2);
   var totalDebtETH = toFixed(parseFloat(('0x' + rawData.slice(66, 130)) / 10**15), 2);
