@@ -36,9 +36,6 @@ function toFixed(num, fixed) {
 }
 
 function getUserInfo() {
-  // values
-  // var sheet = SpreadsheetApp.getActiveSheet();
-  // sheet.getRange(sheet.getLastRow()+1, 1, 1, 1).setValues(values);
   sendMessages("ID: " + [this.update.message.from.id]);
 }
 
