@@ -78,6 +78,6 @@ To register the webhook to the telegram bot, please run setWebhook in Scripts Ed
 
 # Reference
 
-- Starting from EthGlobal Hackthon https://hack.ethglobal.co/showcase/liquidefi-recEkBh7CCTUqVJKB
+- Built during the 2021 MarketMake DeFi Hackathon https://hack.ethglobal.co/showcase/liquidefi-recEkBh7CCTUqVJKB
 - Telegram bot guide https://core.telegram.org/bots
 - AAVE liquidations https://docs.aave.com/developers/guides/liquidations
