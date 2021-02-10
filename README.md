@@ -1,7 +1,9 @@
 # liquiDEFI
 Telegram bot that help user query or get notified the liquidation stats on AAVE👻
 
-The bot in Telegram https://t.me/aavesheetybot
+🤖 The bot in Telegram https://t.me/aavesheetybot
+
+🎥 Project Intro https://www.youtube.com/watch?v=QTCC4nEmfNE
 
 ### /aave [addr]
 
